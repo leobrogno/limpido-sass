@@ -1,4 +1,13 @@
 .main{
     background-color: $main;
-    
+    p{
+        @include estiloFuente ($letratexto, 300, 14px, italic);
+    }
+    h1{
+        @include estiloFuente ($letratexto, 500, 40px, bold);
+    }
 }
+h2{
+    @extend %estilosSubtitulo
+}
+

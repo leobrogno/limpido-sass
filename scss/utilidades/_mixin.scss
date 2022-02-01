@@ -1,0 +1,6 @@
+@mixin estiloFuente ($color, $peso, $tamanio, $tipo) {
+    color: $color;
+    font-weight: $peso;
+    font-size: $tamanio;
+    font-style: italic;
+}
